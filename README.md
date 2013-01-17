@@ -34,6 +34,8 @@ Still need to add the remaining census variables because Total Population and Po
 
 Cheers!
 
+P.S. Currently trying to get Amazon AWS/EC2/S3 stuff figured out. Hoping to have this up and running on Amazon's servers soon. Would be nice to have a link to a demo rather than just a static screenshot.
+
 [1]: http://lakshmi.calit2.uci.edu/census2000/
 [2]: https://github.com/rstudio/shiny
 [3]: https://github.com/bearloga/2010-US-Census-Shiny-App/blob/master/preview.png?raw=true
