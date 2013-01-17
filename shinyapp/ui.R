@@ -15,7 +15,6 @@ list_of_variables <- as.list(variables$Variable)
 names(list_of_variables) <- variables$Name
 rm(variables)
 
-# Define UI for miles per gallon application
 shinyUI(pageWithSidebar(
 	
 	# Application title
