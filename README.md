@@ -5,7 +5,7 @@
 | :---    | :---                                                     |
 | email   | [mpopov@cmu.edu](mailto:mpopov@cmu.edu) |
 | web     | [http://www.mpopov.com](http://www.mpopov.com)           |
-| demo    | [running on Shiny Server on Amazon EC2](shiny.mpopov.com:3838/census/) |
+| demo    | [running on Shiny Server on Amazon EC2](http://shiny.mpopov.com:3838/census/) |
 
 Enables exploration of the 2010 US Census data from the [UScensus2010* package(s)][1] via a web interface created in R with Shiny.
 
