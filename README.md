@@ -10,7 +10,7 @@ Enables exploration of the 2010 US Census data from the [UScensus2010* package(s
 
 ![Preview of the resulting web app.][3]
 
-The data on the counties, tracts, block groups, blocks, and CDPs totals  4.7 GB, which will take a while to download. When you've downloaded the packages, run:
+The data on the counties, tracts, block groups, blocks, and CDPs totals  4.7 GB, which will take a while to download. However, you only need to download county, tract, and block group data which is less than 500 mb. When you've downloaded the packages, run:
 
 ```
 install.packages(c("maptools","maps"));
@@ -18,8 +18,8 @@ install.packages(c(
 "UScensus2010county_1.00.tar.gz",
 "UScensus2010tract_1.00.tar.gz",
 "UScensus2010blkgrp_1.00.tar.gz",
-"UScensus2010cdp_1.00.tar.gz",
-"UScensus2010blk_1.00.tar.gz",
+# "UScensus2010cdp_1.00.tar.gz", # currently not needed
+# "UScensus2010blk_1.00.tar.gz", # currently not needed
 "UScensus2010_0.11.zip"
 ), repos = NULL, type = "source")
 ```
