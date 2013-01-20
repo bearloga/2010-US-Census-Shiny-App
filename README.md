@@ -5,7 +5,8 @@
 | :---    | :---                                                     |
 | email   | [mpopov@cmu.edu](mailto:mpopov@cmu.edu) |
 | web     | [http://www.mpopov.com](http://www.mpopov.com)           |
-| demo    | [running on Shiny Server on Amazon EC2](http://shiny.mpopov.com:3838/census/) |
+| demo    | [live demonstration](http://shiny.mpopov.com:3838/census/) |
+| related    | [Guide to Shiny Server on Amazon EC2](http://mpopov.com/post/40976561625/shiny-server-amazon-ec2-guide) |
 
 Enables exploration of the 2010 US Census data from the [UScensus2010* package(s)][1] via a web interface created in R with Shiny.
 
@@ -34,8 +35,6 @@ shiny::runApp("shinyapp")
 Still need to add the remaining census variables because Total Population and Population Density are not the most exciting to study. ***I'll be adding features over time.*** For example, I'm considering incorporating the Public Use Microdata Sample files from the American Community Survey (PUMS ACS)...eventually.
 
 Cheers!
-
-P.S. Currently trying to get Amazon AWS/EC2/S3 stuff figured out. Hoping to have this up and running on Amazon's servers soon. Would be nice to have a link to a demo rather than just a static screenshot.
 
 [1]: http://lakshmi.calit2.uci.edu/census2000/
 [2]: https://github.com/rstudio/shiny
