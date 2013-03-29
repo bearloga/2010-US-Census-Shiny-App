@@ -1,0 +1,39 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+div#definitions {
+	margin: 0; padding: 0;
+	width: 140px;
+	overflow:scroll;
+}
+
+tr, td {
+	border: none;
+}
+
+tr.odd {
+	background: #F7F7F7;
+}
+
+tr.even {
+	background: #FDFDFD;
+}
+
+td.term {
+	width: 25px;
+	margin: 0; padding: 0 5px 0 0;
+	text-align: right;
+	font-weight: bold;
+}
+
+td.definition {
+	width: 105px;
+	margin: 0; padding: 0 0 0 5px;
+	text-align: left;
+}
+
+div#table table {
+	margin: 10px 20px;
+}
