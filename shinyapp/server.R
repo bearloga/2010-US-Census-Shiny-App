@@ -155,11 +155,12 @@ shinyServer(function(input, output) {
 			# and list of arguments for the function
 			# to produce the requested color scheme.
 			color = list(fun = function(n){
-				if ( chosenColor()=='bdo' ) {
+				if ( chosenColor()=='color' ) {
 					# from the dichromat package
 					# 'Color schemes for dichromats'
 					# by Thomas Lumley
-					return(colorschemes$BluetoDarkOrange.12[floor(seq(1,12,length.out=n))])
+# 					return(colorschemes$BluetoDarkOrange.12[floor(seq(1,12,length.out=n))])
+					RColorBrewer::brewer.pal(n,"YlOrBr")
 				} else {
 					return(gray(seq(1,0,length.out=n)))
 				}

@@ -39,7 +39,7 @@ shinyUI(pageWithSidebar(
 		
 		# Colorblind friendly settings
 		radioButtons("color","Type of heat colors:",
-					 choices=list("Blue to Dark Orange"='bdo',
+					 choices=list("Heat"='color',
 					 			 "Gray"='gray')),
 		
 		selectInput("state","Choose which state:",

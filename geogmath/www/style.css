@@ -4,13 +4,12 @@ body {
 }
 
 div#definitions {
-	margin: 0; padding: 0;
 	width: 140px;
 	overflow:scroll;
 }
 
-tr, td {
-	border: none;
+div#definitions tr, div#definitions td, div#definitions table {
+	border: none; margin: 0; padding: 0;
 }
 
 tr.odd {
@@ -36,4 +35,8 @@ td.definition {
 
 div#table table {
 	margin: 10px 20px;
+}
+
+div#plot, div#table {
+	background-color: #9CF;	
 }
