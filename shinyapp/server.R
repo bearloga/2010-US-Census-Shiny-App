@@ -180,7 +180,7 @@ shinyServer(function(input, output) {
 			
 			# If the user is colorblind and a gray scale is selected,
 			# then borders are added to the grayscale polygons.
-			border="black")#,"transparent")
+			border="black" # OR "transparent"
 			
 		)
 		# IF the user has specified that she/he wants to use custom labels,
