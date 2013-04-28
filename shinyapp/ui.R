@@ -63,11 +63,16 @@ shinyUI(pageWithSidebar(
 		selectInput("information","Choose which information to display.",
 					choices=list_of_variables),
 		
-		h6("Coming soon: a bigger selection of which demographic variables.")
+# 		h6("Coming soon: a bigger selection of which demographic variables.")
+		
+		h5('Contact: Mikhail Popov'),
+		p('Email: mpopov [at] cmu.edu'),
+		h5('Full Source Code'),
+		a("Code at GitHub",href="https://github.com/bearloga/2010-US-Census-Shiny-App",title="Code at GitHub")
 		
 	),
 		
 	mainPanel(
-		plotOutput("choropleth")
+		plotOutput("choropleth",height="100%",width="100%")
 	)
 ))
