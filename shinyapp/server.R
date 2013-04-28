@@ -160,7 +160,7 @@ shinyServer(function(input, output) {
 					# 'Color schemes for dichromats'
 					# by Thomas Lumley
 # 					return(colorschemes$BluetoDarkOrange.12[floor(seq(1,12,length.out=n))])
-					RColorBrewer::brewer.pal(n,"YlOrBr")
+					rev(RColorBrewer::brewer.pal(n,"YlOrBr"))
 				} else {
 					return(gray(seq(1,0,length.out=n)))
 				}

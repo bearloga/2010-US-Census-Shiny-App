@@ -38,7 +38,7 @@ shinyUI(pageWithSidebar(
 		helpText("'[Level] in State' types are computationally expensive."),
 		
 		# Colorblind friendly settings
-		radioButtons("color","Type of heat colors:",
+		radioButtons("color","Color Scale:",
 					 choices=list("Heat"='color',
 					 			 "Gray"='gray')),
 		
