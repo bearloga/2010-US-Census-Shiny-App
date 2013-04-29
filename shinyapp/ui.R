@@ -73,6 +73,6 @@ shinyUI(pageWithSidebar(
 	),
 		
 	mainPanel(
-		plotOutput("choropleth",height="100%",width="100%")
+		plotOutput("choropleth",height="600px",width="800px")
 	)
 ))
