@@ -3,7 +3,7 @@
 
 | By      | Mikhail Y. Popov                                         |
 | :---    | :---                                                     |
-| email   | [mpopov@cmu.edu](mailto:mpopov@cmu.edu) |
+| email   | [mpopov@alumni.cmu.edu](mailto:mpopov@alumni.cmu.edu) |
 | web     | [http://www.mpopov.com](http://www.mpopov.com)           |
 | demo    | [live demonstration](http://shiny.mpopov.com:3838/census/) |
 | related    | [Guide to Shiny Server on Amazon EC2](http://mpopov.com/post/40976561625/shiny-server-amazon-ec2-guide) |
